@@ -42,6 +42,12 @@ following to run cell magic:
 
 ![](assets/cell.png)
 
+To enable verbose mode in cell magic, simply use the following cell magic:
+
+```
+%%clingo 0
+```
+
 And that's it! 💫 
 
 ### No Notebook
