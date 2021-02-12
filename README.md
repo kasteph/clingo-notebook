@@ -24,7 +24,7 @@ docker pull stephsamson/clingo
 In your project workspace (such as `~/code/asp`, for example), run:
 
 ``` 
-docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work clingo
+docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work stephsamson/clingo
 ```
 
 A Jupyter notebook link will appear on your terminal; copy and paste this link
@@ -57,7 +57,7 @@ your project workspace:
 
 ```
 # assumes dir has .lp files
-docker run --rm -it -v "$PWD":/home/jovyan/work --entrypoint=/bin/bash clingo
+docker run --rm -it -v "$PWD":/home/jovyan/work --entrypoint=/bin/bash stephsamson/clingo
 ```
 
 This will run an interactive bash shell and your work will be under the `work`
